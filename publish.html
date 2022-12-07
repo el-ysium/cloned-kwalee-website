@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwalee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2ed2e6d3b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <!-- hidden nav -->
+        <div class="  font-semibold hidden z-50" id="navigation">
+            <div class="bg-kyellow py-7 flex flex-col text-kblack pl-14   absolute right-0 pr-14 z-50">
+                <div class="flex flex-row">
+                    <div>
+                        <p class="text-3xl pt-4">
+                            Be the first to Know
+                        </p>
+                    </div>
+
+                    <div class="pl-72 flex ">
+                        <img src="images/xmark.png" class="w-5 h-5 " onclick="closeNav()" alt="">
+                    </div>
+                    
+                </div>
+                <div class="text-sm flex flex-col gap-y-8 py-8">
+                    <a href="index.html">Home</a>
+                    <a href="publish.html">Publish with Us</a>
+                    <a href="">Pc & Console</a>
+                    <a href="">User Research</a>
+                    <a href="mobilegames.html">Mobile Games</a>
+                    <a href="">Join Us</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="p">
+                    <button class="bg-kblack  rounded-2xl text-white   py-3 px-3.5 hover:border border-kblack hover:bg-kyellow hover:text-kblack ">
+                    Publish with Kwalee
+                   </button>
+               </div>
+                <!-- button -->
+               <div class="button pt-2">
+                  <a
+                  class=" outline-none group relative bg-kblack inline-flex items-center rounded-2xl overflow-hidden  px-6 py-2 hover:outline-none text-white focus:outline-none hover:border border-2 border-kblack hover:text-kblack hover:bg-kyellow"
+                
+                   >
+                 <span
+                  class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
+                  >
+                  <svg
+                    class="h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"               
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </span>
+                
+                <span class=" transition-all group-hover:mr-4 font-semibold text-lg ">
+                  See Vacancy
+                </span>
+                </a>
+                 </div> 
+            
+            </div>
+        </div>
+
+    <nav class="py-2 px-4 flex flex-row bg-kyellow justify-between ">
+        <div>
+            <img src="images/cropped-Kwalee-All-Black-Logo-NEW1 1.png" class="w-[90%]" alt="">
+        </div>
+        <div class= "flex flex-row items-center space-x-9">
+            <div class="p">
+                <button class="bg-kblack  rounded-2xl text-white text-sm  py-2 px-3.5 ">
+                Publish with Kwalee
+               </button>
+        </div>
+            
+            
+            <i class="fa-solid fa-grip-lines text-6xl mt-2 "  onclick="openNav()"></i>
+        </div>
+    </nav>
+
+
+
+    <header class="bg-kblack h-[70vh] flex md:flex-row flex-col lg:pl-32 pl-20 font-semibold ">
+       
+        <div class="flex">
+            <!-- particles -->
+            <div class="">
+                <img src="images/Frame 49.svg" class=" w-[3rem]  top-[24rem]  left-[3rem]   absolute"  alt="">
+            </div>
+
+            <div class="">
+                <img src="images/icon-park-outline_rectangle-x.svg" class="w-[2rem] absolute  top-[10rem]  lg:right-[2.5rem] md:right-[10rem]  "  alt="">
+            </div>
+            
+            
+            <div class=" flex flex-col md:text-left text-center text-sm relative lg:items-start items-center    pt-28 lg:pr-20 pr-4 py-3">
+                <h2 class="text-white lg:text-4xl  text-3xl md:leading-[3.7rem] leading-[3rem]">
+                   Chart-topping <br> partnerships  with a <br>  young and impactful <br>  game studio .
+                </h2>
+               <!-- button -->
+             <div class="button mt-2">
+                <a
+                class="group relative inline-flex items-center overflow-hidden rounded-lg px-8 py-3 bg-kyellow text-kblack focus:outline-none focus:ring active:text-kblack"
+                
+                >
+                <span
+                  class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
+                >
+                  <svg
+                    class="h-5 w-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewbox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </span>
+                
+                <span class=" transition-all group-hover:mr-4 font-semibold text-lg ">
+                  Publish your game
+                </span>
+                </a>
+               </div>
+            </div>
+            <div class=" pt-10  right-[0rem] hidden md:flex ">
+                <img src="images/Group 81.png" class=" w-[50%] absolute " alt="">   
+            </div>
+        </div>
+    </header>
+
+    <!-- sucess story section -->
+   <section class="  bg-kdarkgrey lg:px-44 px-10 py-20 lg:py-52">
+    <p class="text-3xl font-semibold text-center">
+        Let's Write A New Sucess Story! 
+    </p>
+    <!-- content div -->
+    <div class="flex flex-row pt-12">
+        <!-- numbering image div -->
+        <div class="md:flex hidden ">
+            <img src="images/Group 73.svg" class="md:h-[100%]" alt="">
+        </div>
+        
+        <!-- container -->
+        <div class="flex flex-col">
+            <!-- 1 story div -->
+            <div class="flex lg:flex-row-reverse flex-col pl-6">
+                <!-- image div -->
+                <div class="flex ">
+                    <img src="images/Rectangle 32.png"  alt="">
+                </div>
+                <!-- text div -->
+                <div class="mt-7 mb-7">
+                    <p class="text-2xl uppercase font-semibold">Start The Collaboration</p>
+                    <p class="text-kgrey text-base pt">
+                        We want to see your game in action -a video is enough to excite us! So hit that submit button and get your demo in front of a publishing manager!
+                    </p>
+                </div>
+           </div>
+
+             <!-- 2 story div -->
+            <div class="flex lg:flex-row flex-col pl-6">
+                <!-- image div -->
+                <div class="flex ">
+                    <div><img src="images/Rectangle 33.png"  alt=""></div>
+                </div>
+                <!-- text div -->
+                <div class="mt-7 mb-7">
+                    <p class="text-2xl text-kyellow uppercase font-semibold">Gain Valuable insights</p>
+                    <p class="text-kgrey text-base pt">
+                        We,ll market your game to players and get you real data to drive real improvements. And if you need 'em, our in-house team of superstar devs can help out too!
+                    </p>
+                </div>
+            
+            </div>
+
+            <!-- 3 story div -->
+            <div class="flex md:flex-row-reverse flex-col pl-6">
+                <!-- image div -->
+                <div class="flex ">
+                    <div><img src="images/Rectangle 34.png"  alt=""></div>
+                </div>
+                <!-- text div -->
+                <div class="mt-7 mb-7">
+                    <p class="text-2xl text-kblack font-semibold uppercase">Conquer the charts</p>
+                    <p class="text-kgrey text-base pt">
+                      Positive KPIs equals a lucrative publishing deal from us, and a world class UA & Marketingteam who will attract MILLIONS of players to your game !
+                    </p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- deal section -->
+   <section class="bg-kblack lg:px-32 px-20 py-20  flex lg:flex-row flex-col lg:space-x-20">
+
+    <!-- rocket section -->
+    <div class="flex flex-col w-[100%] pt-5">
+        <img src="images/image 11.png" class="w-[100%]" alt="">
+        <p class="text-4xl text-white text-right lg:pb-0 pb-24">
+            It's All Part Of The Deal 
+        </p>
+    </div>
+    
+    <!-- cards -->
+    <div class="grid md:grid-cols-2 grid-cols-1 text-white text-center gap-3 lg:w-[90rem] ">
+        <div class="bg-kgrey rounded-lg p-4  ">
+            <!-- image div -->
+            <div class="py-6 flex justify-center">
+                <img src="images/world.png" alt="">
+            </div>
+            <p class="text-lg pb-2">
+                It's All Part Of The Deal
+            </p>
+            <p class="text-sm">
+                Our UA & Marketing team has vast experience in launching games to a global audience, having led multiple titles to millions of downloads and the top of the charts!
+            </p>
+
+        </div>
+
+        <div class="bg-kgrey rounded-lg p-4  ">
+            <!-- image div -->
+            <div class="py-6 flex justify-center">
+                <img src="images/money.png" alt="">
+            </div>
+            <p class="text-lg uppercase pb-2">
+                monetisation expenses
+            </p>
+            <p class="text-sm">
+                We provide full monetisation support from our dedicated revenue team. Our mission is to help you create a game that will be loved by it's players, and will earn for you and your team.
+            </p>
+
+        </div>
+
+        <div class="bg-kgrey rounded-lg p-4  ">
+            <!-- image div -->
+            <div class="py-6 flex justify-center">
+                <img src="images/tman.png" alt="">
+            </div>
+            <p class="text-lg pb-2 uppercase">
+                Development smarts
+            </p>
+            <p class="text-sm">
+                We'll provide a priceless perspective on your games, from a team that includes seasoned hyper casual experts, the creator of Micro Machines and the co founder of Codemasters!
+            </p>
+
+        </div>
+
+        <div class="bg-kgrey rounded-lg p-4  ">
+            <!-- image div -->
+            <div class="py-6 flex justify-center">
+                <img src="images/tman.png" alt="">
+            </div>
+            <p class="text-lg pb-2 uppercase">
+                The Kwalee Family
+            </p>
+            <p class="text-sm">
+                We've built our success with a collaborative 'family' attitude and our publishing is no different. You'll benefit from all areas of our team.
+            </p>
+        </div>
+    </div>
+   </section>
+
+
+
+
+   <!-- banner -->
+   <section class="lg:flex flex-col">
+    
+        <!-- image div -->
+        <div class="flex lg:w-[55%] w-[100%]">  <img src="images/Banner image.png" class=" object-cover  h-[100%] w-[100%]" alt=""></div>
+      
+    
+    <div class="pt-32 pb-16 flex-col ml-20">
+        <p class="text-3xl font-bold">
+            We're here to help
+        </p>
+        <p>
+            Publish with us today and get started
+        </p>
+
+         <!-- button -->
+         <div class="button mt-5">
+            <a
+            class="group relative inline-flex items-center overflow-hidden rounded-lg px-8 py-3 bg-kblack text-kyellow focus:outline-none focus:ring active:text-kyellow"
+            
+            >
+            <span
+              class="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4"
+            >
+              <svg
+                class="h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </span>
+            
+            <span class=" transition-all group-hover:mr-4 font-semibold text-lg ">
+              Submit your game
+            </span>
+            </a>
+        </div>
+
+    </div>
+   </section>
+
+   <!-- faqs -->
+
+   <section class="bg-kyellow py-14 flex flex-col md:px-32 px-20">
+    <p class="text-4xl font-bold text-kblack text-center pb-4">
+       Publishing FAQs
+    </p>
+    <!-- line -->
+    <div class="bg-kblack h-[2px] w-full"></div>
+
+    <div class="space-y-0 ">
+        
+        <details class="group border-b  border-b-kblack " open>
+          <summary
+            class="flex cursor-pointer items-center justify-between rounded-lg bg-gray-50 p-4"
+          >
+            <h5 class="text-lg font-bold text-gray-900">
+                What will happen when you test my game?
+            </h5>
+      
+            <svg
+              class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewbox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </summary>
+      
+          <p class=" pb-4 px-4 leading-relaxed text-sm ">
+            We’ll run a CPI or Prototype Test to establish your game’s potential. CPI Tests only require 1-2 levels while Prototype Tests require approximately 30. We’ll then provide crucial feedback and look to take things forward!
+          </p>
+        </details>
+      
+        <details class="group border-b  border-b-kblack " open>
+            <summary
+              class="flex cursor-pointer items-center justify-between rounded-lg bg-gray-50 p-4 "
+            >
+              <h5 class="text-lg font-bold text-gray-900">
+                What happens if my game doesn't hit Kwalee's KPIs?
+              </h5>
+        
+              <svg
+                class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </summary>
+        
+            <p class="mt-0 pb-4 px-4 leading-relaxed text-sm ">
+              We’ll run a CPI or Prototype Test to establish your game’s potential. CPI Tests only require 1-2 levels while Prototype Tests require approximately 30. We’ll then provide crucial feedback and look to take things forward!
+            </p>
+          </details>
+
+          <details class="group border-b  border-b-kblack " open>
+            <summary
+              class="flex cursor-pointer items-center justify-between rounded-lg bg-gray-50 p-4 "
+            >
+              <h5 class="text-lg font-bold text-gray-900">
+                What kind of games are you looking for?
+              </h5>
+        
+              <svg
+                class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </summary>
+        
+            <p class="mt-0 pb-4 px-4 leading-relaxed text-sm ">
+              We’ll run a CPI or Prototype Test to establish your game’s potential. CPI Tests only require 1-2 levels while Prototype Tests require approximately 30. We’ll then provide crucial feedback and look to take things forward!
+            </p>
+          </details>
+
+          <details class="group border-b  border-b-kblack " open>
+            <summary
+              class="flex cursor-pointer items-center justify-between rounded-lg bg-gray-50 p-4 "
+            >
+              <h5 class="text-lg font-bold text-gray-900">
+                What's the most important thing you look for in a game?
+              </h5>
+        
+              <svg
+                class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewbox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </summary>
+        
+            <p class="mt-0 pb-4 px-4 leading-relaxed text-sm ">
+              We’ll run a CPI or Prototype Test to establish your game’s potential. CPI Tests only require 1-2 levels while Prototype Tests require approximately 30. We’ll then provide crucial feedback and look to take things forward!
+            </p>
+          </details>
+      </div>
+      
+   </section>
+
+
+
+
+
+
+   <!-- footer -->
+   
+
+    <footer class="bg-kblack text-white  py-20 lg:px-32 px-14 flex flex-col">
+        <div class="flex justify-center pb-16">
+            <img src="images/image 2.png" class="lg:w-[60%]" alt=""> 
+        </div>
+
+        <!-- footer links -->
+      <div class="flex lg:flex-row flex-col lg:space-x-20 space-y-10">
+    
+        <div class="grid lg:grid-cols-3 md:grid-cols-2  lg:gap-x-28 space-y-10 md:gap-x-20">
+          <div class=" flex mt-[2.4rem] flex-col space-y-4 text-kwhite text-xs ">
+                    <a href="" class="text-kgrey">SOLUTIONS</a>
+                    <a href="">Marketing</a>
+                    <a href="">Analytics</a>
+                    <a href="">Commerce</a>
+                    <a href="">Insights</a>
+                </div>
+                <div class="flex flex-col space-y-4 text-kwhite text-xs ">
+                    <a href="" class="text-kgrey">SOCIAL MEDIA</a>
+                    <a href="">Facebook</a>
+                    <a href="">Twitter</a>
+                    <a href="">Instagram</a>
+                    <a href="">Linkedin</a>
+                </div>
+                <div class="flex  flex-col space-y-4 text-kwhite text-xs  ">
+                    <a href="" class="text-kgrey">COMPANY</a>
+                    <a href="">Publish with us</a>
+                    <a href="">Pc & Console</a>
+                    <a href="">User Research</a>
+                    <a href="">Mobile Games</a>
+                    <a href="">Join Us</a>
+                </div>
+    
+            </div>
+            <div class="flex flex-col  ">
+                <p class="text-kgrey pb-4 text-xs">
+                    SUBSCRIBE TO OUR NEWSLETTER
+                </p>
+                <p class="text-xs text-kwhite pb-7">
+                    The latest news, articles, and resources, sent to your inbox weekly.
+                </p>
+
+                <div class="flex flex-row gap-2 text-kdarkgrey ">
+                    <input type="email" class=" bg-kyellow rounded-lg px-4 " placeholder="Enter your email">
+
+                    <button>
+                        <a
+                            class="inline-block rounded bg-white px-7 py-3 text-sm font-medium text-kblack 
+                            hover:border border-kbrightyellow 
+                            hover:bg-kblack hover:text-kyellow focus:outline-none focus:ring active:text-kyellow"
+                            href="/download">
+                            Subscribe
+                          </a>
+                    </button>
+                </div>
+            </div>
+      </div>
+
+      <div>
+      <div class="bg-kyellow h-[1px] mt-16">
+      </div>
+
+      <!-- socials -->
+      <div class="flex flex-row justify-between text-xs text-kgrey mt-5">
+        <div class="flex ">
+            <p >
+                @ 2020 Workflow, Inc. All right reserved.
+            </p>
+        </div>
+        <div class="flex gap-3">
+            <img src="images/facebook.png" alt="">
+            <img src="images/Icon.png" alt="">
+            <img src="images/twitter.png" alt="">
+        </div>
+      </div>
+       </div>
+
+        
+
+
+
+    </footer>
+
+
+    <script>
+        /* Open the sidenav */
+        function openNav() {
+          document.getElementById("navigation").style.display = "block";
+        }
+        
+        /* Close/hide the sidenav */
+        function closeNav() {
+          document.getElementById("navigation").style.display = "none";
+        }
+    </script>
+</body>
+</html>
